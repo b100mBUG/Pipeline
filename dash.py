@@ -3,7 +3,11 @@ import pandas as pd
 import io
 
 # -------------------- PAGE SETUP --------------------
-st.set_page_config(page_title="Sample Data Pipeline", layout="wide")
+st.set_page_config(
+    page_title="Sample Data Pipeline",  
+    page_icon="🛠️",                   
+    layout="wide",             
+)
 
 st.title("Sample Data Pipeline")
 st.header("Let's clean your data")
